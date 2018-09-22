@@ -16,7 +16,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       
       foreach ($tipos as  $value) 
       {
-        echo "<h4>tipo: ".$value['tipo']."</h4>";
+
+        echo "<h4><i class='far fa-grin'></i> Tipo: ".$value['tipo']."</h4>";
         $i=0;
         echo '<table class="table table-dark">
         <thead>
